@@ -4,6 +4,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: ShiniNet
       url-base: https://github.com/ShiniNet/
+    - name: norinori78
+      url-base: https://github.com/norinori78/
     - name: caksoylar
       url-base: https://github.com/caksoylar
   projects:
@@ -12,8 +14,8 @@ manifest:
       revision: v0.3.0
       import: app/west.yml
     - name: zmk-driver-iqs9151
-      remote: ShiniNet
-      revision: main
+      remote: norinori78
+      revision: fix/tap-jitter
     - name: zmk-easy-charge-indicator
       remote: ShiniNet
       revision: main
